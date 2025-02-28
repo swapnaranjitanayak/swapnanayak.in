@@ -1,0 +1,418 @@
+
+.cursive {
+    font-family: "Cedarville Cursive", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1.6;
+  }
+  
+.fira-code{
+    font-family: "Fira Code", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Inter", serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #1e1e23;
+    background-color: #f8f8f8;
+}
+/* Modify grid */
+@media (min-width: 1400px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1000px;
+    }
+}
+
+/* genric */
+h1{
+    font-size: 40px;
+ }
+.muted{
+    color: #606060;
+}
+.muted-white{
+    color: #c5c5c5;
+}
+.bold-text {
+    font-weight: bold;
+}
+.medium-text {
+    font-weight: 500;
+}
+.mt-100{
+    margin-top: 100px;
+}
+.float-end{
+    text-align: right;
+}
+h5{
+    font-size: 18px;
+}
+h6, h5{
+    line-height: 1.7;
+}
+ /* nav */
+.navbar {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+.navbar-toggler {
+    border:0
+}
+/* hero */
+.hero {
+    height: 90vh;
+    display: flex;
+    position: relative;
+    z-index: 0;
+    padding-bottom: 20px;
+}
+.hero h1{
+    font-size: 8vw;
+}
+.hero-content .hero-header{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.section-content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.hero p{
+    max-width: 600px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.name-cursive{
+    width: 100px;
+}
+.side-note{
+    padding: 40px 0;
+}
+a {
+    text-decoration: none;
+    color: #1e1e23;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    left: 0;
+    background: #1e1e23;
+    transition: width 0.3s ease;
+}
+.dark-theme a {
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s ease;
+}
+.dark-theme a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    display: block;
+    margin-top: 5px;
+    left: 0;
+    background: #ffffff;
+    transition: width 0.3s ease;
+}
+.nav-link:hover::after, .side-note a:hover::after, .dark-theme a:hover::after, .blog a:hover::after{
+    width: 100%;
+}
+.gradient-text{
+    background: linear-gradient(180deg, #000000 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+/* work highlights */
+.section{
+    padding: 80px 0 160px;
+}
+.font-18{
+    font-size: 18px;
+}
+.highlighter{
+    position: relative;
+}
+.highlighter::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 100%;
+    height: 0.5em;
+    background-color: #F4FF9E;
+    z-index: -1;
+}
+.profile-pic img{
+    max-width: 250px;
+    border: 8px solid #fff;
+    box-shadow: 0 2px 2px #0000005e;
+    transform: rotate(-8deg);
+    padding: px 0 47px;
+    background: #fff;
+    border-radius: 50px;
+}
+/* case studies */
+.section-header{
+    font-size: 8vw;
+    color: #e5e5e5;
+}
+.lhs{
+    padding: 20px;
+}
+.case-study {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: box-shadow 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+.case-study:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 25px;
+}
+.case-study a{
+    color: #1e1e23;
+}
+.lhs h3 {
+    font-size: 18px;
+    line-height: 1.5;
+}
+.stats{
+    margin-top: 20px;
+    border-top: 1px solid rgba(215, 215, 215, 0.275)
+}
+
+.footer{
+    background-color: #1e1e23;
+    padding: 80px 0;
+}
+
+.dark-theme{
+    color: #fff;
+}
+/* Animation */
+.wave-effect {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave-effect::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.5) 50%, rgba(255, 255, 255, 0) 75%);
+    animation: wave 2s linear infinite;
+}
+
+@keyframes wave {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+/* Wave effect animation for dark theme */
+.wave-effect-dark {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave-effect-dark::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0) 25%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 75%);
+    animation: wave-dark 2s linear infinite;
+}
+
+@keyframes wave-dark {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+.case-study-container {
+    perspective: 1000px;
+}
+
+.case-study {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px 0;
+    transition: transform 0.5s ease, box-shadow 0.5s ease, background-color 0.5s ease, padding 0.5s ease;
+    transform-style: preserve-3d;
+}
+
+.case-study:hover {
+    transform: rotateY(0.5deg) rotateX(-2deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    padding: 22px;
+}
+/* heart pulse animation */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.animated-image {
+    animation: pulse 2s ease-in-out infinite; /* Pulse the image continuously */
+}
+
+/* Hand wave animation */
+@keyframes hand-wave {
+    0% {
+        transform: rotate(0deg);
+    }
+    20% {
+        transform: rotate(-10deg);
+    }
+    40% {
+        transform: rotate(10deg);
+    }
+    60% {
+        transform: rotate(-10deg);
+    }
+    80% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+.hand {
+    display: inline-block;
+    animation: hand-wave 1s infinite;
+}
+/* Wave effect animation for dark theme */
+.wave-effect-dark {
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+}
+
+.wave-effect-dark::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(30, 30, 35, 0) 25%, rgba(30, 30, 35, 0.5) 50%, rgba(30, 30, 35, 0) 75%);
+    animation: wave-dark 2s linear infinite;
+}
+
+@keyframes wave-dark {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(100%);
+    }
+}
+/* profile pic */
+.profile-pic {
+    perspective: 1000px;
+}
+
+.profile-pic img {
+    transition: transform 0.3s ease;
+}
+
+.profile-pic:hover img {
+    transform: rotateY(10deg) rotateX(-10deg);
+}
+
+/* Blog CSS */
+
+/* Modify grid */
+@media (min-width: 900px) {
+    .blog .container, .blog .container-lg, .blog .container-md, .blog .container-sm, .blog .container-xl, .blog .container-xxl {
+        max-width: 700px;
+    }
+}
+
+.blog-hero{
+    margin: 150px auto 0;
+    padding: 30px 0;
+}
+
+.blog-hero h1{
+    font-size: 4vw;
+    font-weight: 600;
+}
+
+.blog p{
+    line-height: 1.9;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.blog img{
+    line-height: 1.7;
+    margin-bottom: 32px;
+    border-radius: 4px;
+    width: 100%;
+}
+.blog-content{
+    padding: 0 0 100px;
+}
+.blog h5{
+    font-size: 17px;
+    margin-bottom: 32px;
+    font-weight: 600;
+}
+figcaption{
+    margin-top: -25px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #606060;
+}
+.blog a{
+    text-decoration: underline;
+}
+.blog a:hover::after{
+    width: 0;
+}
