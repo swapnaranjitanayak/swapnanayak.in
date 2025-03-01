@@ -1,49 +1,27 @@
-# Bootstrap Boilerplate
+# 🚀 Swapna's Portfolio
 
-This project is a boilerplate template for building web applications using Bootstrap. It includes a basic structure with custom CSS and JavaScript files to extend and enhance Bootstrap's functionality.
+Welcome to my portfolio website! This is where I showcase my work, design philosophy, and insights on product design and leadership.
 
-## Project Structure
+## 🌐 Live Site
 
-```
-bootstrap-boilerplate
-├── src
-│   ├── css
-│   │   └── styles.css       # Custom CSS styles
-│   ├── js
-│   │   └── scripts.js       # Custom JavaScript code
-│   └── index.html           # Main HTML file
-├── package.json              # npm configuration file
-└── README.md                 # Project documentation
-```
+[Visit My Portfolio](www.swapnanayak.in)
 
-## Getting Started
+## 📌 About
 
-To get started with this project, follow these steps:
+This portfolio highlights my experience in Product Design, Strategy, and Leadership. It includes case studies, insights, and my approach to building impactful user experiences.
 
-1. **Clone the repository**:
-   ```
-   git clone <repository-url>
-   cd bootstrap-boilerplate
-   ```
+## 📁 Features
+- 🖥️ **Projects & Case Studies**: Detailed breakdowns of my work
+- 🏆 **Achievements**: Showcasing key milestones in my career
+- 📬 **Contact**: Easy ways to reach out for collaboration
 
-2. **Install dependencies**:
-   Make sure you have Node.js and npm installed. Run the following command to install the necessary packages:
-   ```
-   npm install
-   ```
 
-3. **Run the project**:
-   Open `src/index.html` in your web browser to view the project.
+## 📜 License
+This project is open-source and available under the [MIT License](LICENSE).
 
-## Customization
+## 🤝 Connect with Me
+- [LinkedIn](https://linkedin.com/in/swapnaranjitanayak
+- [Substack](https://substack.com/@swapnaranjita)
 
-- **CSS**: Modify `src/css/styles.css` to add your custom styles.
-- **JavaScript**: Update `src/js/scripts.js` to implement any additional functionality or interactivity.
-
-## Contributing
-
-Feel free to submit issues or pull requests if you have suggestions or improvements for this project.
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for more details.
+---
+💡 *Always evolving, always learning. Thanks for visiting!*

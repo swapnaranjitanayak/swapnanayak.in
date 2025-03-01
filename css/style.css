@@ -67,6 +67,9 @@ h6, h5{
 .navbar-toggler {
     border:0
 }
+.nav-item{
+    margin-left: 10px;
+}
 /* hero */
 .hero {
     height: 90vh;
@@ -89,7 +92,7 @@ h6, h5{
     gap: 5px;
 }
 .hero p{
-    max-width: 600px;
+    max-width: 650px;
     line-height: 30px;
     margin-bottom: 0;
 }
