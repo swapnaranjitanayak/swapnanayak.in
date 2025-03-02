@@ -120,6 +120,15 @@ a::after {
     background: #1e1e23;
     transition: width 0.3s ease;
 }
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active{
+    border-radius: 8px;
+    padding: 14px 24px;
+    background: #1e1e23;
+    border-color: #1e1e23;
+}
+.btn-primary:hover{
+    border-radius: 4px;
+}
 .dark-theme a {
     text-decoration: none;
     color: #ffffff;
@@ -160,16 +169,7 @@ a::after {
 }
 .highlighter{
     position: relative;
-}
-.highlighter::before {
-    content: '';
-    position: absolute;
-    bottom: -2px;
-    left: 0;
-    width: 100%;
-    height: 0.5em;
     background-color: #F4FF9E;
-    z-index: -1;
 }
 .profile-pic img{
     max-width: 250px;
@@ -397,7 +397,7 @@ a::after {
 }
 
 .blog img{
-    line-height: 1.7;
+    margin-top: 30px;
     margin-bottom: 32px;
     border-radius: 12px;
     width: 100%;
@@ -405,11 +405,16 @@ a::after {
 .blog-content{
     padding: 0 0 100px;
 }
-.blog h4{
-    font-size: 20px;
-    margin-bottom: 30px;
+.blog h3, .blog h4, .blog h5{
     font-weight: 600;
-    margin-top: 14px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+.blog h3{
+    font-size: 30px;
+}
+.blog h4{
+    font-size: 22px;
 }
 .blog .h-meta{
     font-size: 17px;
@@ -434,6 +439,10 @@ figcaption{
     width: 0;
 }
 .blog ul{
-    padding: 0px 16px;
+    padding: 0 16px 0;
     line-height: 2;
+}
+.blog ul.navbar-nav, .blog ul.navbar-nav li, blog ul.navbar-nav li a{
+    margin: 0;
+    padding: 0;
 }
