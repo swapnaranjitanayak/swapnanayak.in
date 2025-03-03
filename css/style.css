@@ -445,3 +445,15 @@ figcaption{
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 760px) {
+    .profile-pic {
+      margin-bottom: 100px;
+    }
+    .section {
+        padding: 80px 20px 160px;
+    }
+    .blog-hero, .blog-content{
+        padding: 30px 20px;
+    }
+  }
