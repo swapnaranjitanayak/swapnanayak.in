@@ -389,7 +389,7 @@ a::after {
     font-weight: 600;
 }
 
-.blog p{
+.blog p:not(.footer p){
     line-height: 1.9;
     font-size: 16px;
     margin-bottom: 20px;
@@ -431,11 +431,15 @@ figcaption{
     text-align: center;
     color: #606060;
 }
-.blog a{
+.blog a {
     text-decoration: underline;
 }
-.blog a:hover::after{
-    width: 0;
+
+.footer a {
+    text-decoration: none;
+}
+.blog a:not(.footer a) {
+    text-decoration: underline;
 }
 .blog ul{
     padding: 0 16px 0;
