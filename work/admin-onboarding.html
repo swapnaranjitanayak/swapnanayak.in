@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapna Nayak</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="../img/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon//favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="blog">
+        <nav class="navbar navbar-expand-lg fira-code fixed-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Go Home</a>
+                    </li>
+                </ul>
+        </nav>
+
+        <!-- blog hero -->
+        <div class="container">
+            <div class="blog-hero">
+                <h4 class="cursive">from Swapna's Notebook</p>
+                    <h1>Admin Onboarding</h1>
+                    <p class="mb-0 font-18">Designing a self-serve admin onboarding at Fyle for <span class="highlighter">supporting a new revenue stream</span>.
+                    </p>
+            </div>
+            <div class="blog-content">
+                <h3>Why Onboarding?</h3>
+                <p> Before we begin, let's understand what Fyle does...</p>
+                <p class="block-quote">
+                    Imagine you’ve just completed a business trip, and now you need to submit receipts for reimbursement. The finance team must verify each receipt, ensure compliance, initiate reimbursement and push approved expenses into the company’s accounting books.
+
+                    Fyle streamlines this entire process—handling everything from receipt collection to approval, verification, and accounting integration—<span class="highlighter">so businesses can manage expenses with ease</span>.
+                </p>
+                <p>
+                    To fully leverage Fyle’s capabilities, businesses need to configure their accounts based on their specific workflows and policies. That’s where the product account setup team comes in.
+                </p>
+                <p>
+                    For years, onboarding at Fyle was a <b class="highlighter">high-touch, guided process</b>. The account setup team assisted businesses in configuring their accounts—a process that typically took <b>1.5 months per business</b>, covering:
+                </p>
+                <ul>
+                    <li>Inviting employees to the expense management platform</li>
+                    <li>Assigning approvers (with varying complexity based on company size)</li>
+                    <li>Configuring compliance policies</li>
+                    <li>Setting up accounting integrations</li>
+                </ul>
+                <p>This approach worked well—until Fyle landed a <span class="highlighter">multi-million dollar deal</span> as part of its new embedded platform offering. 
+                    With the embedded platform, any large business could launch its own expense management solution, fully powered by Fyle, while maintaining its own brand guidelines.
+                    The corporate card program under our banking partner already had <b>600K to 800K customers</b> and <b>2,000+ organizations</b> that needed onboarding. 
+                    <span class="highlighter"> 🚨 Our existing approach wouldn’t scale.</span>
+                </p>
+                <p> With a committed deadline for testing the closed beta, we had to reimagine onboarding from the ground up—designing, testing, and handing off a self-serve, scalable solution <b>within just 1.5 months</b>.</p>
+                <h3>Framing the Problem</h3>
+                <p class="block-quote">
+                    How might we design a self-serve onboarding experience that reduces account setup time, enabling businesses to realize value faster?
+                </p>
+                <h4>Success Metrics</h4>
+                <ul>
+                    <li> Self-Serve Completion Rate in closed beta: ≥<b> 80%</b></li>
+                    <li> Reduce account setup time from 1.5 months to under <b>15 minutes</b></li>
+                    <li> Positive Usability Feedback in external usability testing: ≥ <b>90%</b></li>
+                </ul>
+                <h4>My role</h4>
+                <p>
+                As the design owner, I led the <span class="highlighter">high-level interactions and user flows</span> to accelerate delivery while my colleague focused on execution details. 
+                I facilitated cross-functional collaboration through the design phase, 
+                working closely with internal engineering teams, and <b>banking partner's product, design, and engineering teams</b>.
+                </p>
+                <h3>Solving the problem</h3>
+                <p>During our <strong>kickoff call</strong>, we aligned on key strategies to make onboarding seamless and scalable.</p>
+                <h4>Key strategies</h4>
+                <ul>
+                    <li><strong>Enabling users to onboard at their own pace</strong> – Instead of forcing a rigid setup process, we allowed users to log in, initiate setup whenever they were ready, and freely explore the product. This ensured onboarding remained non-blocking.</li>
+                    
+                    <li><strong>Keeping the existing product functionality intact</strong> – Rather than overhauling core features, we optimized the experience within the current system, ensuring minimal engineering effort.</li>
+                    
+                    <li><strong>Addressing the biggest friction point—approval setup</strong> – Through analysis, we found that the approval setup process required frequent CS team intervention. However, a complete backend fix wasn’t feasible within our timeline. Instead, we redesigned the interface experience to simplify onboarding without altering backend logic.</li>
+                    
+                    <li><strong>Leveraging competitive insights</strong> – To avoid reinventing the wheel, we analyzed B2B onboarding flows from industry-leading products and extracted best practices.</li>
+                    
+                    <li><strong>Understanding real-world use cases</strong> – We engaged Account Managers to gather insights on how businesses typically approached onboarding. This helped us refine our approach and ensure our solution met user needs effectively.</li>
+                </ul>
+
+                <h3>Design Decisions & Execution</h3>
+                <h4>Exploring Solutions</h4>
+                <p>As per our strategic decisions, we redesigned the onboarding experience, allowing users to complete the setup at their own pace. The goal was simple—reduce friction and let them explore the product without feeling blocked.</p>  
+
+                <h5>The Plan</h5>  
+                <ul>  
+                    <li><strong>Shortlist necessary steps</strong> – Invite employees, assign approvers, set up policies, and configure integrations.</li>  
+                    <li><strong>Guide users step by step</strong> – Allow them to move forward only after completing the current step.</li>  
+                    <li><strong>Redirect them seamlessly</strong> – Take users to the relevant module for setup, and nudge them toward the next step.</li>  
+                </ul>  
+
+                <p>Everything seemed to be falling into place. But as always, reality had other plans. 😅</p>  
+                
+                <h4> 1️⃣ Step 01: Invite Employees— Hitting with Complexity</h4>  
+                <p>This onboarding wasn’t just for our banking partner—it extended to our embedded offering, where Fyle would be presented under another company’s branding.
+                    
+                </p>  
+                
+                <ul>  
+                    <li><strong>Initial approach?</strong> Redirect users to the Employee Page to invite their team members.</li>  
+                    <li><strong>Problem:</strong> This page wasn’t just about inviting employees—it had features like approval workflows, bulk edits, and exports, which could overwhelm first-time users.</li>  
+                    <li><strong>Nuanced Take</strong> – Could we hide advanced features and reveal them progressively?</li>  
+                    <li><strong>Issue:</strong> When and how do we reveal them without confusing users later? There was barely any room for progressive disclosure within the existing structure.</li>  
+                </ul>  
+                
+                <p>So, we parked this problem and moved to the next step.</p>  
+                
+                <h4>2️⃣ Step 02: Setting Up Policies— More Complexity</h4>  
+                <p>Policies in Fyle were inherently complex, often requiring Customer Success intervention.
+                </p>  
+                
+                <ul> 
+                    <li><strong>Data Insight:</strong></strong> Receipt settings were the most commonly used.</li>
+                    <li><strong>But the problem</strong> how do we highlight receipt settings alone? What about the other conditions? When would they appear?</li>  
+                </ul>  
+                
+                <p>We ran into the same problem as in Step 1.</p>  
+                
+                <h4>3️⃣ Step 03: Approval Setup</h4>  
+                <p>The approval workflow setup was previously buried under the Policies Page, making it almost undiscoverable.</p>  
+                
+                <ul>  
+                    <li><strong>Win!</strong> After discussions with engineering, we got approval to separate the approval flow from policies—without changing backend logic.</li>  
+                    <li><strong>However, approval workflows varied across organizations:</strong></li>  
+                    <ul>  
+                        <li>🔹 Some had a single primary approver.</li>  
+                        <li>🔹 Others had multi-stage approvals with conditions.</li>  
+                    </ul>  
+                </ul>  
+                
+                <p>We explored multiple variations, but something always felt off as the IA looked complex.</p>  
+                
+                <h4>4️⃣ Step 04: Integrations</h4>  
+                <p>Unlike other steps, integration setup was entirely self-serve. However, it took an average of 15 minutes to complete—requiring focused effort.</p>  
+                
+                <ul>  
+                    <li><strong>Key insight:</strong> Instead of pushing users to set up integrations upfront, we could prompt them after they had completed fundamental settings.</li>  
+                    <li><strong>Small yet impactful tweak –</strong> Introducing a default setting where expenses would be automatically submitted on behalf of the spender. This removed unnecessary friction.</li>  
+                </ul>  
+                
+                <h4>The Harsh Realization</h4>  
+                <p>By Week 3, it became painfully clear—Solution 01 wasn’t going to work.</p>  
+                
+                <ul>  
+                    <li><strong>Why?</strong></li>  
+                    <ul>  
+                        <li>Settings are a one-time setup—Users rarely revisit them.</li>  
+                        <li>Progressive disclosure wasn’t the right approach—Hiding things initially made future access unintuitive.</li>  
+                    </ul>  
+                </ul>  
+
+                <p>It was clear-we needed to change our strategy.</p>
+                <p class="font-18 block-quote">What if we asked users to finish the basic settings first and then explore the product?</p>  
+                
+                <h3>Final Solution Approach</h3>
+                <h5>Engineering Trade-Offs & A Fresh Perspective</h5>  
+<p>This approach meant the engineering team couldn't reuse existing pages. To move forward, we created rough wireframes for different pages and met with the internal engineering team for further discussions.</p>  
+
+<p>We found a trade-off. We decided to maintain a similar structure to the existing pages while building entirely new ones. Having a similar structure brings a sense of familiarity and ease of navigation.</p>  
+
+<h5>A Breath of Fresh Air</h5>  
+<p>Coming back to the designs, here’s how we structured our approach:</p>  
+
+<h5>Employee Page</h5>  
+<ul>  
+  <li>To simplify user onboarding, we imported all users from the banking partner as Spenders.</li>  
+  <li>This was a new addition that emerged during our brainstorming sessions.</li>  
+  <li>By changing our approach, the interface became more intuitive, saving us from writing numerous conditional blocks.</li>  
+</ul>  
+
+<h5>Receipt Page</h5>  
+<ul>  
+  <li>Following the same streamlined approach as the Employee Page, we further simplified this interface.</li>  
+</ul>  
+
+<h5>Approval Page</h5>  
+<ul>  
+  <li>We analyzed the data and streamlined the conditions. Since amount-based conditions were the most commonly used, we focused on simplifying the multi-stage process.</li>  
+  <li>To keep things lean, we restricted third-level approvals, considering the expected smaller organization size. If needed, we could always revisit this later.</li>  
+</ul>  
+
+<h5>Green Light & Usability Testing</h5>  
+<p>We presented our approach to the banking partner team, and they approved the plan.</p>  
+<p>Following that, the team proceeded with external usability testing, and we received valuable feedback.</p>  
+
+<h5>Achievements & General Availability</h5>  
+<p>While we successfully reached our closed beta target, the product is now in General Availability (GA).</p>  
+<p>Here are the latest stats and feedback we've received so far:</p>  
+
+            </div>
+
+
+        </div>
+
+    </div>
+        
+     <!-- footer -->
+     <div class="container-fluid footer dark-theme">
+        <div class="container">
+            <div class="row d-flex align-items-end">
+                <div class="col">
+                    <div class="work-header">
+                        <p class="cursive medium-text mb-1">
+                            her contacts
+                        </p>
+                        <div class="links mt-4">
+                            <p class="fira-code"><a href="mailto:swapnaranjitanayak@gmail.com">Email: swapnaranjitanayak@gmail.com</a></p>
+                            <p class="fira-code"><a href="https://www.linkedin.com/in/swapnaranjitanayak/" target="_blank">LinkedIn</a></p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <p class="muted fira-code mb-0 mt-2"> Side Note: 💖 Smile gently</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="text-lg-end">
+                        <p class="muted mt-3 fira-code"> © <span id="copyright-year"> </span>
+                            Designed & Developed by Swapna Nayak</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+<script src="../js/scripts.js"></script>
+</body>
+
+</html>

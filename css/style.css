@@ -392,7 +392,7 @@ a::after {
 .blog p:not(.footer p),.blog p:not(.block-quote){
     line-height: 1.9;
     font-size: 16px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .blog img{
@@ -444,6 +444,7 @@ figcaption{
 .blog ul{
     padding: 0 16px 0;
     line-height: 2;
+    margin-bottom: 30px;
 }
 .blog ul.navbar-nav, .blog ul.navbar-nav li, blog ul.navbar-nav li a{
     margin: 0;
