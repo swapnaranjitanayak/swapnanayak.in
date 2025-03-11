@@ -177,7 +177,7 @@ a::after {
 }
 /* work highlights */
 .section{
-    padding: 140px 0 140px;
+    padding: 140px 0 80px;
 }
 .font-18{
     font-size: 18px;
