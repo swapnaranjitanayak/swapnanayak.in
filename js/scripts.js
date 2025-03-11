@@ -12,10 +12,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
     function hideHoverImage() {
         hoverImage.style.display = 'none';
     }
+
     document.querySelectorAll('.hero-header').forEach(element => {
         element.addEventListener('mousemove', showHoverImage);
         element.addEventListener('mouseleave', hideHoverImage);
     });
+
     // Update the copyright year dynamically
     const currentYearElement = document.getElementById('current-year');
     const currentYear = new Date().getFullYear();
@@ -33,10 +35,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
             const img = profilePic.querySelector('img');
             img.style.transform = `rotateY(${deltaX * 10}deg) rotateX(${deltaY * -10}deg)`;
         });
-    
+
         profilePic.addEventListener('mouseleave', () => {
             const img = profilePic.querySelector('img');
             img.style.transform = 'rotateY(0deg) rotateX(0deg)';
         });
     });
+
 });
