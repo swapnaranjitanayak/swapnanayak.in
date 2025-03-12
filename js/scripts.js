@@ -1,21 +1,10 @@
 document.addEventListener("DOMContentLoaded", (event) => {
     gsap.registerPlugin(Observer, ScrollToPlugin);
 
-    const hoverImage = document.getElementById('hover-image');
-
-    function showHoverImage(event) {
-        hoverImage.style.display = 'block';
-        hoverImage.style.left = event.pageX + 30 + 'px';
-        hoverImage.style.top = event.pageY - 90 + 'px';
-    }
-
-    function hideHoverImage() {
-        hoverImage.style.display = 'none';
-    }
-
-    document.querySelectorAll('.hero-header').forEach(element => {
-        element.addEventListener('mousemove', showHoverImage);
-        element.addEventListener('mouseleave', hideHoverImage);
+    // Smooth scroll to case studies section
+    document.querySelector('.case-studies-link').addEventListener('click', function(e) {
+        e.preventDefault();
+        gsap.to(window, {duration: 1, scrollTo: "#case-studies"});
     });
 
     // Update the copyright year dynamically
