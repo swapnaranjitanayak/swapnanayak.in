@@ -61,7 +61,7 @@
                         <div class="hero-content">
                             <div class="hero-header">
                                 <h1><span class="muted">Outcome driven design through </span>
-                                    empathy, data & strategy.
+                                    <span id="typewriter-text">empathy, data & strategy.</span></h1>
                                 </h1>
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                     <div class="col-md-4 profile-text font-300">
                         <div class="display-1">
                             <div class="number">
-                                65+
+                                100+
                             </div>
                         </div>    
                         <div class="text">
@@ -129,10 +129,6 @@
             </div>
         </div>
     </div>
-
-    <!-- Hover Image -->
-    <img id="hover-image" src="img/hello-yellow.gif" alt="Hover Image"
-        style="display: none; position: absolute; width: 75px; pointer-events: none;">
 
     <!-- Explore work -->
     <section id="case-studies">
@@ -272,7 +268,11 @@
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
-    <script src="js/scripts.js" defer></script>
+    <script src="js/scripts.js"></script>
+    <script>
+        // GSAP animation for hero header text
+    gsap.from("#typewriter-text", {duration: 2, opacity: 0, y: 50, ease: "power2.out"});
+    </script>
 </body>
 
 </html>

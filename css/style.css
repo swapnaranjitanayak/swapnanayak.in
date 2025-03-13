@@ -251,12 +251,47 @@ a::after {
     max-width: 260px;
     border: 8px solid #fff;
     box-shadow: 0 2px 2px #0000005e;
-    transform: rotate(-8deg);
+    transform: rotate(-10deg) translateY(0px);
     padding: px 0 47px;
     background: #fff;
     border-radius: 50px;
+	animation: float 6s ease-in-out infinite;
+    margin-top: 40px;
 }
-
+.reverse-rotate img{
+    transform: rotate(10deg) translateY(0px);
+    animation: reverse-float 6s ease-in-out infinite;
+    margin-top: 40px;
+}
+@keyframes reverse-float {
+	0% {
+		transform: rotate(10deg) translateY(0px);
+	}
+	50% {
+		transform: rotate(10deg) translateY(-5px);
+	}
+	100% {
+		transform: rotate(10deg) translateY(0px);
+	}
+}
+@keyframes float {
+	0% {
+		transform: rotate(-10deg) translateY(0px);
+	}
+	50% {
+		transform: rotate(-10deg) translateY(-5px);
+	}
+	100% {
+		transform: rotate(-10deg) translateY(0px);
+	}
+}
+.about > .row{
+    padding: 40px 0;
+}
+.about h5{
+    margin-bottom: 20px;
+    color: #1e1e23;
+}
 /* case studies */
 
 .footer{
@@ -267,6 +302,7 @@ a::after {
 .dark-theme{
     color: #fff;
 }
+
 
 /* Blog CSS */
 
