@@ -8,3 +8,24 @@ document.addEventListener("DOMContentLoaded", (event) => {
     });
 
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+    // Fade-in effect on page load
+    gsap.from(".container", { opacity: 0, duration: 0.8 });
+
+    // Add transition effect on navigation links
+    document.querySelectorAll(".transition-link").forEach(link => {
+        link.addEventListener("click", function(event) {
+            event.preventDefault(); // Stop default link behavior
+            let targetUrl = this.href;
+
+            gsap.to(".container", {
+                opacity: 0,
+                duration: 0.8,
+                onComplete: function() {
+                    window.location.href = targetUrl; // Navigate after animation
+                }
+            });
+        });
+    });
+});

@@ -19,34 +19,56 @@
     <link rel="manifest" href="/site.webmanifest">
 </head>
 
-<body>
-    <div class="blog">
-        <nav class="navbar navbar-expand-lg fira-code fixed-top">
-            <div class="container">
-                <ul class="navbar-nav">
+<body class="mod">
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand flex items-center" href="../index.html">
+                <img src="../img/swapna-sqr.png" alt="" width="28" class="mr-2">
+                Swapna Nayak
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="../index.html">Go Home</a>
+                        <a class="nav-link" href="work-home.html">Work</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="../about.html">About</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="resume.pdf" target="_blank" onclick="setTimeout(() => { window.location.href='resume.pdf'; }, 2000);">Resume <i class="bi bi-arrow-up-right"></i></a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:swapnaranjitanayak@gmail.com">Contact</a>
                     </li>
                 </ul>
-        </nav>
+            </div>
+    </nav>
+
+
+    <div class="blog">
 
         <!-- blog hero -->
         <div class="container">
             <div class="blog-hero">
-                <h4 class="cursive">from Swapna's Notebook</p>
+                <h3 class="cursive">Fyle</h3>
                     <h1>Spender Onboarding</h1>
-                    <p class="mb-0 font-18">Designing a self-serve spender onboarding at Fyle through <span class="highlighter">pragmatic leadership</span>.
+                    <p class="supporting-text">Designing a self-serve spender onboarding at Fyle through <span class="highlighter">pragmatic leadership</span>.
                     </p>
             </div>
             <div class="blog-content">
-                <h3>Context</h3>
-                <p class="block-quote">Fyle is an expense management platform that streamlines the way businesses track and report expenses.
+
+                <p class="block-quote">Fyle is an expense management platform that streamlines the entire process from
+                    submitting receipts to reimbursement. It helps businesses efficiently handle receipt collection,
+                    approval workflows, compliance verification, and accounting integration.
                     After successfully redesigning our <a href="admin-onboarding.html" target="_blank">admin onboarding</a> flow, we <span class="highlighter">naturally turned our attention</span> to
                     spenders—employees who submit expenses.</p>
-                <p>Spender onboarding was a critical gap in our <span class="highlighter">activation</span> funnel. Without it, users <b>delayed adoption</b> of
-                    automated expense tracking, reducing overall product stickiness. Improving this flow directly
-                    contributed to <b>retention and time-to-value</b>, which were key growth drivers for Fyle for <span class="highlighter">PLG</span>.</p>
-
+        
                 <h3>Problem Discovery</h3>
                 <p>The journey to improving spender onboarding wasn't as straightforward as we initially thought. It
                     began as a <span class="highlighter"> natural extension of our admin onboarding work </span>, but the full scope of the problem
@@ -89,13 +111,13 @@
                 <img src="../img/tooltip 2.png" alt="tooltip 2">
                 <figcaption>Another sample tooltip walkthrough screen for a different module</figcaption>
                 
-                <h5>Influencing the product strategy</h5>
+                <h3>Influencing the product strategy</h3>
 
                 <p>After this, we transitioned to a new quarter and henceforth to a new roadmap as well <span class="highlighter">with revised strategic decisions</span>, bringing this initiative close to <span class="highlighter">being dropped</span>.
                      I advocated for its <b>long-term value</b>. I emphasized how this initiative would strengthen Fyle's <b>embedded offering business</b>, providing value to both the spender and the business.</b>
                 </p>
 
-                <h4>Iteration 2: Exploring Sample Expense</h4>
+                <h3>Iteration 2: Exploring Sample Expense</h3>
                 <p>We explored a sample expense to help spenders visualize what an expense looks like. However,
                     discussions with <span class="highlighter">engineering</span> revealed practical challenges:</p>
                 <ul>
@@ -111,10 +133,20 @@
                 <figcaption>Exploration of sample expense</figcaption>
                 
 
-                <h4>Iteration 3: Prioritizing Core Actions</h4>
-                <p>Stepping back, we <span class="highlighter">reassessed</span> what truly defined value for a spender. <b>Data</b> showed users weren't
+                <h3>Iteration 3: Prioritizing Core Actions</h3>
+                <p>Stepping back, we <span class="highlighter">reassessed</span> what truly defined value for a spender - it is the expense creation. 
+                    The faster way of creating the expense is sending receipts via SMS. For this, user needs to conenct the card and opt into the text message.
+                    
+                    <b>Data</b> showed users weren't
                     entering their mobile number and card details, <span class="highlighter"> delaying access</span> to our most valuable
-                    feature—<b>automated receipt tracking</b>.</p>
+                    feature—<b>automated receipt tracking.</b></p>
+
+                <p>
+                    We reivestigated onboarding of other products and considered incorporating the learnings from <span class="highlighter">Slack's onboarding.</span>
+                    Unlike others, Slack help user creating a workspace before even they use the product. <span class="highlighter">User takes action before even exploring the product.</span> 
+                    This was our takeway.
+                </p>
+
 
                 <h5>Key strategies</h5>
                 <p>We redesigned the onboarding flow to prioritize these two actions:</p>
@@ -174,7 +206,11 @@
                     <li>Card connection time: <b>488 hours → 12 minutes</b></li>
                 </ul>
                 <p>Beyond short-term activation, this onboarding flow laid the foundation for a <span class="highlighter">scalable self-serve
-                    model</span>, reducing customer support dependency and improving <span class="highlighter">long-term retention</span></p>
+                    model</span>, reducing customer support dependency and improving <span class="highlighter">long-term retention.</span></p>
+
+                <p>
+                    As next step, We extended the onboarding to the <span class="highlighter">Mobile App Platform. </span>
+                </p>
 
                 <h4>Key Learnings</h4>
                 <h5>On Design Process</h5>
@@ -204,9 +240,16 @@
                 </ul>
                 <p>This project reinforced that great product design doesn't require extensive frameworks—it requires
                     clear focus on user needs, business outcomes, and practical solutions. In a small organization, the
-                    ability to navigate ambiguity, learn quickly, and execute pragmatically is often more valuable than
+                    ability to <span class="highlighter"> navigate ambiguity, learn quickly, and execute pragmatically</span> is often more valuable than
                     perfect process adherence.</p>
                 
+
+                <!-- next article -->
+                <div class="next">
+                    <p>
+                        <a href="../work/leadership.html">Leading Design at Fyle (coming soon) --></a>
+                    </p>
+                </div>
 
             </div>
         </div>
@@ -219,11 +262,15 @@
             <div class="row">
                 <div class="col-lg-6 mt-4">
                         <p class="cursive medium-text mb-5">
-                            Contacts
+                            Links
                         </p>
                         <p class="font-14"><a href="https://www.linkedin.com/in/swapnaranjitanayak/" target="_blank">LinkedIn</a></p>
                         <p class="font-14"><a href="https://dribbble.com/swapnaranjitanayak" target="_blank">Dribbble</a></p>
+                        <a class="nav-link" href="https://substack.com/@swapnaranjita" target="_blank">Substack</a>
+                        <p class="font-14"> <a class="nav-link" href="resume.pdf" target="_blank" onclick="setTimeout(() => { window.location.href='resume.pdf'; }, 2000);">Resume <i class="bi bi-arrow-up-right"></i></a>
+                        </p>
                         <p class="font-14"><a href="mailto:swapnaranjitanayak@gmail.com">Email: swapnaranjitanayak@gmail.com</a></p>
+                        
                 </div>
                 <div class="col-lg-6">
                     <div class="text-lg-end">
