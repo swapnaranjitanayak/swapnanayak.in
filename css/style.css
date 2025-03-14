@@ -308,8 +308,8 @@ a::after {
 
 /* Modify grid */
 @media (min-width: 900px) {
-    .blog .navbar .container, .blog-hero p,.blog-hero h1, .blog-hero h2, .blog-hero h3, .blog-hero h4, .blog-hero h5, .blog-hero h6,  .blog-content h1,.blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6, .blog-content ul, .blog-content p{
-       max-width: 720px;
+     .blog-hero p,.blog-hero h1, .blog-hero h2, .blog-hero h3, .blog-hero h4, .blog-hero h5, .blog-hero h6,  .blog-content h1,.blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6, .blog-content ul, .blog-content p{
+       max-width: 680px;
        margin-left: auto;
        margin-right: auto;
        padding-left:20px;
@@ -317,47 +317,60 @@ a::after {
     }
 }
 @media (max-width: 576px) {
-    .blog .navbar .container, .blog-hero p,.blog-hero h1, .blog-hero h2, .blog-hero h3, .blog-hero h4, .blog-hero h5, .blog-hero h6,  .blog-content h1,.blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6, .blog-content ul, .blog-content p{
+   .blog-hero p,.blog-hero h1, .blog-hero h2, .blog-hero h3, .blog-hero h4, .blog-hero h5, .blog-hero h6,  .blog-content h1,.blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6, .blog-content ul, .blog-content p{
         max-width: 540px;
         margin-left: auto;
         margin-right: auto;
      }
 }
+.blog, .mod, .mod .navbar{
+    background-color: #f9f9f8;
+}
 .blog-hero{
-    margin: 150px auto 0;
-    padding: 30px 0;
+    margin: 260px auto 0;
 }
 
 .blog-hero h1{
     font-size: 4vw;
-    font-weight: 600;
+    font-weight: 400;
 }
 
-.blog p:not(.footer p),.blog p:not(.block-quote){
+.blog-hero .supporting-text{
+    font-size: 26px !important;
+    font-weight: 300;
+    margin-top: 60px;
+    margin-bottom: 40px !important;
+}
+
+.blog p:not(.footer p),.blog p:not(.block-quote), .next p{
     line-height: 1.9;
-    font-size: 16px;
-    margin-bottom: 30px;
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-weight: 300;
 }
-
+.featured-img{
+    margin-bottom: 70px !important;
+}
 .blog img{
     margin-top: 30px;
-    margin-bottom: 32px;
-    border-radius: 12px;
+    margin-bottom: 45px;
+    border-radius: 2px;
     width: 100%;
 }
 .blog-content{
     padding: 0 0 100px;
 }
 .blog h3, .blog h4, .blog h5{
-    font-weight: 600;
-    margin-bottom: 30px;
-    margin-top: 40px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-top: 80px;
 }
 .blog h3{
-    font-size: 30px;
+    font-size: 24px;
 }
 .blog h4{
-    font-size: 22px;
+    font-size: 20px;
+    font-weight: 400;
 }
 .blog .h-meta{
     font-size: 17px;
@@ -371,7 +384,7 @@ a::after {
 }
 figcaption{
     margin-top: -25px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     text-align: center;
     color: #606060;
 }
@@ -388,11 +401,13 @@ figcaption{
 .blog ul{
     padding: 0 38px 0;
     line-height: 2;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
 }
 .blog li{
     padding: 0 0 0 12px;
-    margin-bottom: 4px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 .blog ul.navbar-nav, .blog ul.navbar-nav li, blog ul.navbar-nav li a{
@@ -404,7 +419,13 @@ figcaption{
     padding-left: 24px;
     font-size: 18px;
 }
-
+.next{
+    background:#d9d9d933 ;
+    padding: 120px 0 80px;
+}
+.next p a{
+    text-decoration: none !important;
+}
 @media screen and (max-width: 760px) {
     .hero{
         padding: 40vh 0 0;
