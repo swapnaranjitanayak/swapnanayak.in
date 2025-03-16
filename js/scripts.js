@@ -29,3 +29,13 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     });
 });
+
+// document.addEventListener("DOMContentLoaded", function () {
+//     function toSentenceCase(text) {
+//       return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
+//     }
+  
+//     document.querySelectorAll("h1, h2, h3, h4, h5, h6").forEach(header => {
+//       header.textContent = toSentenceCase(header.textContent);
+//     });
+//   });
