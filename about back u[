@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swapna Nayak</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+
+    <div>
+        <nav class="navbar navbar-expand-lg fira-code fixed-top">
+            <div class="container">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" style="padding: 0;">Go Home</a>
+                    </li>
+                </ul>
+        </nav>
+    
+        <!-- blog hero -->
+        <div class="container">
+            <div class="blog-hero">
+                <h1>About me</h1>
+                <h4>👋 Hello.</h4>
+            </div>
+
+        <div class="blog-content">
+
+                
+                <h5>How and Why design?</h5>
+                <p>In 2014, intrigued by a $300 AdSense revenue post on Facebook, she dove deep into blogging. She <span class="highlighter"> taught herself WordPress, PHP, HTML, and CSS</span> to launch her own blogging website—all during a time when online resources were scarce.</p>
+                <img src="img/adsense.jpg" alt="adsense">
+                <figcaption>She was overjoyed when she got adsense approval</figcaption>
+                <p> <span class="highlighter"> Dissatisfied</span> with WordPress's free themes, she began experimenting with custom designs in Photoshop. This experimentation sparked her passion for design. She started reading more about designs,  <span class="highlighter"> on her own.</span></p>
+                <h5>Cybria Tech</h5>
+                <p>Her professional journey began at Cybria Tech, a startup founded by her collage senior. It delivered software services to businesses. As their <span class="highlighter">solo designer </span> and <span class="highlighter">front-end</span> developer, she crafted and deployed both code and designs for numerous websites.</p>
+                <h5>Muvi - A platform to lunch site like Netflix.</h5>
+                <p>After a year and a half, she joined Exelanz and worked on their product Muvi, which tackled streaming platform challenges in 2015 and is now a market leader. As a movie enthusiast, she found the perfect fit. There, she created a product <span class="highlighter">style guide</span> and delivered custom designs for enterprise clients like <span class="highlighter">Sony</span> and Universal Motion Pictures. </p>
+                <p>She also actively participated in <b>Google Developer Group Fest events</b> in Bhubaneswar, expanding her knowledge of Design Thinking, Material Design, and Polymer JS.</p>
+                <h5>FusionCharts - Makes data delight.</h5>
+                <p>Juggling both design and coding was challenging. Hence to focus solely on design, she relocated to Bangalore, India in 2017 and joined the talented team at FusionCharts—a JS library used by <span class="highlighter">28,000 companies and 800,000+ developers </span>. Working with an exceptional team, they enhanced conversion rates, designed a new <a href="https://medium.com/swlh/how-to-approach-design-systems-in-startups-56ab6ce1b98a" target="_blank"><span class="highlighter">Design system</span></a> (Published by The Start Up), and improved various touchpoints through website revamp before the company's acquisition.</p>
+                <img src="img/swapna-fc.jpg" alt="">
+                <figcaption>She was forced for this photo before the new design lunch :P </figcaption>
+                <img src="img/ideation.jpg" alt="">
+                <figcaption>Team is ideating on FC's branding </figcaption>
+                <h5>Fyle - Makes expense reporting breeze.</h5>
+                <p>Just before COVID, she joined Fyle, an expense management platform for businesses. She helped shape the product from scratch to achieve product-market fit and led major initiatives after the company's pivot to the US market. She built Fyle's first design organization, and maintained <span class="highlighter">zero attrition for 2.5 years</span>. During her time, thebusiness grew from <span class="highlighter"> 0 to $5M+ and beyond</span>.</p>
+
+                <p>During her time at Fyle, she <span class="highlighter">mentored interns</span> who grew into product designer I to II to senior designers and <span class="highlighter">helped other designers</span> and freshers who reached out through LinkedIn/Email/Behance.</p>
+                <img src="img/community.jpeg" alt="">
+                <h5>Break and Side Hustle</h5>
+                <p>Currently, she's on an open-ended sabbatical to focus on personal growth after such an insane run. Also on side, she is solving <span class="highlighter">auto mobile space problems</span> on a theme of right to repair. </p>
+
+                <h5>On portfolio</h5>
+                <p>For this portfolio, She <span class="highlighter">experimented</span> with Framer and Webflow but ultimately decided to <span class="highlighter">code everything from scratch using Co-pilot</span>. She loved putting it all together again after so many years. </p>
+        </div>
+    </div>
+    </div>
+ 
+
+    <!-- footer -->
+    <div class="container-fluid footer dark-theme">
+        <div class="container">
+            <div class="row d-flex align-items-end">
+                <div class="col">
+                    <div class="work-header">
+                        <p class="cursive medium-text mb-1">
+                            her contacts
+                        </p>
+                        <div class="links mt-4">
+                            <p class="fira-code"><a href="mailto:swapnaranjitanayak@gmail.com">Email: swapnaranjitanayak@gmail.com</a></p>
+                            <p class="fira-code"><a href="https://www.linkedin.com/in/swapnaranjitanayak/" target="_blank">LinkedIn</a></p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-4">
+                    <p class="muted fira-code mb-0 mt-2"> Side Note: 💖 Smile gently</p>
+                </div>
+                <div class="col-lg-8">
+                    <div class="text-lg-end">
+                        <p class="muted mt-3 fira-code"> © <span id="copyright-year"> </span>
+                            Designed & Developed by Swapna Nayak</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/Observer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollToPlugin.min.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
