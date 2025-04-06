@@ -112,6 +112,11 @@ h6, h5{
     z-index: 0;
     padding: 20vw 0 0;
 }
+@media (min-width: 1540px) {
+    .hero {
+        padding: 16vw 0 0;
+    }
+}
 .hero h1{
     font-size:5.5vw;
 }
