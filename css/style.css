@@ -48,6 +48,12 @@ body {
         max-width: 1000px;
     }
 }
+@media (min-width: 1540px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1400px;
+    }
+}
+
 h1, h2, h3, h4, h5, h6{
     text-transform: none;
 }
@@ -114,7 +120,11 @@ h6, h5{
     flex-direction: column;
     gap: 5px;
 }
-
+@media (min-width: 1540px) {
+    .hero h1{
+        font-size: 4vw;
+    }
+}
 .hero p{
     max-width: 650px;
     line-height: 30px;
@@ -356,6 +366,15 @@ a::after {
         margin-right: auto;
      }
 }
+@media (min-width: 1540px) {
+    .blog-hero p,.blog-hero h1, .blog-hero h2, .blog-hero h3, .blog-hero h4, .blog-hero h5, .blog-hero h6,  .blog-content h1,.blog-content h2, .blog-content h3, .blog-content h4, .blog-content h5, .blog-content h6, .blog-content ul, .blog-content p{
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left:20px;
+        padding-right:20px;
+     }
+}
 .blog, .mod, .mod .navbar{
     background-color: #f9f9f8;
 }
@@ -367,7 +386,12 @@ a::after {
     font-size: 4vw;
     font-weight: 400;
 }
-
+@media (min-width: 1540px) {
+     .blog-hero h1{
+        font-size: 2.5vw;
+        font-weight: 400;
+    }
+}
 .blog-hero .supporting-text{
     font-size: 26px !important;
     font-weight: 300;
